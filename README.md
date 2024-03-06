@@ -13,7 +13,7 @@ Sólo toma unos segundos el perder la atención de un visitante, así que asegú
 Esto se puede hacer de muchas maneras – diapositivas, presentaciones en video, galerías con vistas previas, etc-. Por ejemplo, si eres un programador puedes crear tu sitio web mostrando los proyectos que desarrollaste asegurandote que el usuario visualmente quiera entrar y ver lo creado, para lo cual puedes usar imagenes claras, tecnologías usadas y links de las soluciones (si aplica). Adicional, será importante contar un poco de ti y de la experiencia que tienes como desarrollador,de manera transversal tus canales de contacto, puede ser un formulario, botones de mensajería instantanea, tus perfiles profesionales como linkedIn, github y correos profesionales.
 
 ### Requerimientos técnicos
-1. El proyecto DEBE utilizar el panel de señalización Kanban.
+1. El proyecto DEBE utilizar el panel de señalización Kanbn.
 2. La página web DEBE ser responsive.
 3. El proyecto DEBE ser lo más escalable posible. Ya que se irá actualizando a medida que vayamos aprendiendo nuevas tecnologías.
 4. El proyecto DEBE ser desarrollado con HTML y CSS. 
