@@ -1,8 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
   /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-family: League Gothic; */
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px; 
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Color del fondo de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffc100;
+  /* width: 20px; */
+  border-radius: 10px;
+   /* Color de la barra de desplazamiento */
 }
 
 body {
@@ -44,21 +65,19 @@ body {
   border-radius: 36px;
   position: fixed;
   backdrop-filter: blur(40px);
+  text-decoration: none;
 }
 
-.nav-bar li {
+.nav-bar ul li a{
   font-size: 1.1rem;
   text-transform: uppercase;
   cursor: pointer;
   color: white;
+  text-decoration: none;
 }
 
-.nav-bar li:hover {
+.nav-bar li a:hover {
   color: #ffc100;
-  /* background-color: #FFC100;
-    transform: scale(1.1);
-    padding: 0 3px;
-    border-radius: 16px; */
 }
 
 .about-me-section {
@@ -90,7 +109,6 @@ body {
   color: white;
   font-size: 2.8rem;
   font-weight: bold;
-
 }
 
 .about-info-text h1 span {
@@ -102,6 +120,8 @@ body {
   width: 100%;
   font-size: 1.1rem;
   color: white;
+  line-height: 1.1;
+  letter-spacing: 2px;
 }
 
 .aside-links{
@@ -234,6 +254,7 @@ body {
 .skills-section h3{
   color: #5f5f5f;
   font-size: 1.8rem;
+  text-transform: uppercase;
 }
 
 .skills-items{
@@ -257,7 +278,7 @@ body {
 
 .projects-section-container{
   width: 100%;
-  height: 600px;
+  height: 500px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -268,7 +289,8 @@ body {
 
 .projects-section-container h3{
   color: #5f5f5f;
-  font-size: 2.6rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
 }
 
 .projects-slider-container{
@@ -282,8 +304,8 @@ body {
 }
 
 .project-card-container{
-  min-width: 600px;
-  max-width: 600px;
+  min-width: 550px;
+  max-width: 550px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -293,8 +315,8 @@ body {
   border-radius: 24px;
   overflow: hidden;
   margin-left: 2%;
-  background-color: #000000;
-  border: 2px solid #ffffff;
+  background-color: #00000000;
+  border: 1px solid #ffffff;
 }
 
 .img-project-container{
@@ -336,6 +358,7 @@ body {
   gap: 20px;
   color: rgb(255, 255, 255);
   margin-left: 15px;
+  margin-bottom: 15px;
   /* border: 1px solid white ; */
 }
 
